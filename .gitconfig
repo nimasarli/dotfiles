@@ -1,9 +1,18 @@
+[user]
+	email = nima.sarli@gmail.com
+	name = nimasarli
+[alias]
+	co = checkout
+ 	coa = !git add -A && git commit -m
+ 	l = log --color --graph --decorate --pretty=format:'%C(bold cyan)%h%Creset -%C(bold red)%d%Creset %s %C(bold green)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+ 	l1 = log --oneline
+ 	lg = log --oneline --graph --decorate
+	s = status
+ 	br = branch --sort=-committerdate
+ 	head-id = rev-parse --short HEAD
 [credential]
 	helper = 
 	helper = /usr/local/bin/git-credential-manager
 	credentialStore = plaintext
 [credential "https://dev.azure.com"]
 	useHttpPath = true
-[user]
-	email = nima.sarli@gmail.com
-	name = nimasarli
