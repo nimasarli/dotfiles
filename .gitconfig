@@ -1,0 +1,9 @@
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = plaintext
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	email = nima.sarli@gmail.com
+	name = nimasarli
