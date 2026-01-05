@@ -38,9 +38,6 @@ alias gcdev='git checkout develop'
 # chmod
 alias make_editable='sudo chmod -R 777 ./'
 
-# Show the top 10 cpu using threads, sorted based on cpu usage
-alias top_10='ps -eo pcpu,pid,user,args | tail -n +2 | sort -k1 -r -n | head -10'
-
 # editing/openning my_aliases file
 alias edit_bashrc='sudo gedit ~/.my_aliases.sh'
 alias open_bashrc='gedit ~/.my_aliases.sh'
